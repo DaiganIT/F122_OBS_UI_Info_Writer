@@ -1,0 +1,28 @@
+{
+  "name": "f122_obs_ui_info_writer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npx tsc && node dist/index",
+    "clean": "npx tsc && node dist/clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaiganIT/F122_TelemetryWriter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaiganIT/F122_TelemetryWriter/issues"
+  },
+  "homepage": "https://github.com/DaiganIT/F122_TelemetryWriter#readme",
+  "dependencies": {
+    "@racehub-io/f1-telemetry-client": "^0.2.8",
+    "obs-websocket-js": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.3"
+  }
+}
